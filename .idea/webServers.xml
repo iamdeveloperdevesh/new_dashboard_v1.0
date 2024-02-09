@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b3c24e2f-80e3-486d-8bf3-7304a1bfe7de" name="beta">
+        <fileTransfer rootFolder="/var/www/html/fyntune-creditor-portal" accessType="SFTP" sshConfigId="0540b7fd-6bff-47d9-8936-df393889cf88" sshConfig="beta">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6fbca04c-3556-49df-8086-30cd22ba7b12" name="sftpfilestore">
+        <fileTransfer accessType="SFTP" host="healthrenewalnotices.blob.core.windows.net" port="22" sshConfigId="c8bbb1b8-f766-4621-9cf1-75c5b4ace203" sshConfig="healthrenewalnotices.nobrokers@healthrenewalnotices.blob.core.windows.net:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

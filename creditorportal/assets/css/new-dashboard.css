@@ -1,0 +1,415 @@
+/*!
+* CSS for new dashboard - v1.0.0
+*
+* Made by Devesh Ukalkar (https://github.com/iamcoderdevesh)
+*/
+/* ------------------------------------------- */
+
+.body-container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.custom-gap {
+    padding: 0px 25px 0px 10px;
+}
+
+.home-container {
+    margin: 20px;
+    margin-left: 90px;
+}
+
+.card-bg {
+    background: linear-gradient(180deg, #003160 0%, rgba(15, 114, 211, 0.554941) 74.51%, rgba(144, 200, 255, 0.52) 100%);
+}
+
+.dashboard-title {
+    padding: 20px 5px 15px 5px;
+    width: 11.3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.header-label {
+    display: inline-block;
+    width: 2px;
+    border-radius: 2px;
+}
+
+.heading-blue-color {
+    color: #0182FF;
+    font-weight: 600;
+}
+
+.text-blue-color {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #329aff;
+    white-space: nowrap;
+    flex-shrink: 0;
+    color: #329aff;
+}
+
+.text-style {
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #272727;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.filter-select {
+    width: 100%;
+    border: none;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filter-row {
+    bottom: 20px;
+}
+
+.filter-partial {
+    height: 100%;
+}
+
+.filter-group-row {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 0.5fr;
+    gap: 10px;
+}
+
+.divider-line {
+    width: 0.1rem;
+    height: 5rem;
+    background-color: #abaaaa;
+    flex-shrink: 0;
+}
+
+.divider {
+    border-right: 1px solid #ced4da;
+    height: 60px;
+}
+
+
+.performance-row {
+    display: flex;
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+    height: 45%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.performance-col {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.rectangle-blue {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: #0055a7;
+    border-radius: 1rem;
+}
+
+.rectangle-white {
+    width: 98%;
+    height: 97%;
+    position: absolute;
+    z-index: 1;
+    left: 4px;
+    top: 4px;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+
+/* Partial Performance Section */
+
+.policy-container {
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.policy-header {
+    padding: 15px 40px 10px 40px;
+    width: 200px;
+    font-size: 92%;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #242424;
+    width: 100%;
+}
+
+.custom-divider {
+    border-bottom: 1px dashed #0182FF;
+    margin: 0px 3px 0px 6px;
+}
+
+.policy-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #242424;
+    margin-bottom: 0.5rem;
+}
+
+/* Slider Section  */
+.card-container {
+    width: 100%;
+    padding: 0px 10px 32px !important;
+}
+
+.cards {
+    margin: 0 5px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cards-body {
+    border-radius: 20px;
+    border: solid 0.1rem #9acdff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bg-voilet {
+    border: solid 0.1rem #0055A7;
+}
+
+.slider-head-text {
+    font-size: 13px;
+    font-weight: 700 !important;
+}
+
+.slider-text {
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+/* Charts Section  */
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 300px;
+    border: 2px solid #0152A2;
+    border-radius: 20px;
+}
+
+.dotted-border {
+    border-bottom: 2px dashed #0182FF;
+}
+
+.blue-color {
+    color: #0182FF;
+}
+
+.discrepancy-card-container {
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    margin: 20px 0px 11px 0px;
+}
+
+.discrepancy-card {
+    height: 100px;
+    width: 100%;
+}
+
+.discrepancy-text {
+    font-size: 14px;
+}
+
+/* CSS For Table  */
+.table-head tr th {
+    /* background: #da8089 !important; */
+    background-color: #339AFF !important;
+    color: #fff;
+    letter-spacing: 0.3px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.custom-table {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table tbody tr td {
+    border: 0;
+    background-color: #F2F2F2;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.custom-table tbody tr th {
+    border: 0;
+    background-color: #F2F2F2;
+    white-space: nowrap;
+}
+
+.custom-table tbody tr {
+    border: 2px solid black;
+}
+
+.custom-table tbody th {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.custom-table tbody tr td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.details-btn {
+    background-color: #0182FF;
+    padding: 4px;
+}
+
+.date_picker input {
+    border: none;
+    width: 100%;
+    font-size: 11px !important;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.custom-margin {
+    margin-left: 10px;
+}
+
+/* Responsive Css */
+@media (max-width: 1268px) {
+    .discrepancy-card {
+        width: 100%;
+    }
+
+    .status-cards {
+        overflow-y: auto;
+    }
+
+    .discrepancy-card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .discrepancy-card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+
+    .home-container {
+        margin-left: 20px;
+    }
+
+    .performance-row {
+        display: flex;
+        margin: 10px 0px;
+        flex-direction: column;
+    }
+
+    .performance-col {
+        margin: 10px 0px;
+    }
+
+    .policy-header {
+        padding: 15px 40px 10px 40px;
+        width: 100%;
+    }
+
+    .filter-container {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .card-section {
+        height: 100%;
+    }
+
+    .performance-col {
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .custom-gap {
+        padding: 0px 20px 0px 15px;
+    }
+
+    .rectangle-white {
+        width: 99%;
+    }
+    
+    .custom-width {
+        width: 100px;
+    }
+
+    .google-translate {
+        margin: 0 !important;
+    }
+
+    .nav-side {
+        flex-direction: column-reverse;
+    }
+
+    .dropdown-menu[data-bs-popper] {
+        
+    }
+}

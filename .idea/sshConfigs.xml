@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="healthrenewalnotices.blob.core.windows.net" id="c8bbb1b8-f766-4621-9cf1-75c5b4ace203" port="22" nameFormat="DESCRIPTIVE" username="healthrenewalnotices.nobrokers" />
+    </configs>
+  </component>
+</project>
